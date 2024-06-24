@@ -1,0 +1,46 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+}
+.container  {
+        width: 100%;
+}
+.sub{
+        margin: 100px auto;
+        height: 65vh;
+        width: 70%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr ;
+        grid-template-rows: 1fr 3fr; 
+}
+
+.arrangement{
+        display: flex;
+}
+.itemnews{
+        width: 100%;
+        border: 1px solid black;
+}
+.items{
+        border: 1px solid black;
+}
+
+.item67{
+        height: 50%;
+        border: 1px solid black;
+}
+
+.newadjustment{
+        border: 1px solid black;
+        display: flex;
+        height: 50%;
+}
+
+#item89{
+        width: 100%;
+        height: 100%;
+
+}

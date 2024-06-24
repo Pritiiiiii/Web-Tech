@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+}
+table{
+    border-collapse: collapse;
+    text-align:center;
+    margin: auto;
+    margin-top: 5%;
+
+    
+}th{
+    background-color: rgba(0, 0, 0, 0.805);
+    color: white;
+    padding: 10px;
+}tr:nth-of-type(even){
+    background-color:white;
+
+}
+tr{
+    background-color:#f3f3f3;
+}
+table, td{
+    padding: 10px;
+    text-align: center;
+    
+}

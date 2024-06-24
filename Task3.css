@@ -1,0 +1,22 @@
+h3{
+    text-align: center;
+}
+table,tr,th,td{
+    border: green solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}tr:first-child{
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    padding:10px;
+
+}
+.head{
+    text-align: left;
+    padding-left:10px;
+}tr:nth-of-type(even){
+    background-color: #f3f3f300;
+}
+

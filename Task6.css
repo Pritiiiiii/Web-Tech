@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+} #Container{
+    display: flex;
+    justify-content: center;
+    /* height: 100%;
+    width: 100%; */
+    margin-top: 70px;
+}#img{
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+    
+ .input{
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+ }
+ #id{
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+ }#inpb{
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    
+ }
+    #link{
+    padding: 10px 30px 10px 30px;
+   display: flex;
+   justify-content: center;
+
+   }
+ 
+ #bt{
+    display: flex;
+    justify-content: center;
+ }
+
+ #btn{
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: green;
+    color: aliceblue;
+    
+ }p{
+    margin-top: 30px;
+ }

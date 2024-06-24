@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    
+
+}
+.logo{
+    display: flex;
+    margin-right: 20%;
+    height: 50px;
+
+}
+.list ul {
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;  
+}
+.list ul li{
+    list-style: none;
+    color: navy;
+    font-weight: bold;
+    
+}
+.list ul li:hover{ 
+    cursor: pointer;
+    color: orange;
+}
+.get{
+    display: flex;
+    justify-content: end;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 20px;
+    width: auto;
+    padding: 10px;
+    margin-right: 10%;
+    background-color: orange;
+    color: aliceblue;
+     
+}
+.subli ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+display: none;
+}
+.Services:hover+.subli>ul{
+display: block;
+background-color: aliceblue;
+color:black;
+padding: 10px;
+gap: 10px;
+}
+.fire ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+display: none;
+}
+.Partners:hover+.fire>ul{
+    display: block;
+background-color: aliceblue;
+color:black;
+padding: 10px;
+gap: 10px;
+
+}
